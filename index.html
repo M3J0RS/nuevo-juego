@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Adivinar Palabras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Juego de Adivinar Palabras</h1>
+    <div class="scoreboard">
+      <p>Puntaje: <span id="score">0</span></p>
+      <p>Palabra desordenada: <span id="scrambled-word">...</span></p>
+    </div>
+    <input type="text" id="word-input" placeholder="Escribe la palabra" />
+    <button id="check-button">Comprobar</button>
+    <p id="message"></p>
+    <button id="next-button" style="display: none;">Siguiente</button>
+    <button id="reset-button" style="display: none;">Reiniciar Juego</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
